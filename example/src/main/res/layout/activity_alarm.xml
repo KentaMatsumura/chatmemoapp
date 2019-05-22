@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AlarmActivity">
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_32dp"
+        android:layout_marginLeft="@dimen/layout_margin_32dp"
+        android:layout_marginEnd="@dimen/layout_margin_32dp"
+        android:layout_marginRight="@dimen/layout_margin_32dp"
+        android:layout_marginBottom="@dimen/layout_margin_32dp"
+        android:background="#FF5722"
+        android:gravity="center_horizontal"
+        android:text="@string/init_date"
+        android:textSize="@dimen/layout_text_36sp"
+        app:layout_constraintBottom_toTopOf="@+id/set_alarm"
+        app:layout_constraintEnd_toEndOf="@id/time_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_32dp"
+        android:layout_marginLeft="@dimen/layout_margin_32dp"
+        android:layout_marginTop="@dimen/layout_margin_32dp"
+        android:layout_marginEnd="@dimen/layout_margin_32dp"
+        android:layout_marginRight="@dimen/layout_margin_32dp"
+        android:background="#8BC34A"
+        android:gravity="center_horizontal"
+        android:text="@string/init_time"
+        android:textSize="@dimen/layout_text_36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/date_text" />
+
+    <Button
+        android:id="@+id/set_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_32dp"
+        android:layout_marginLeft="@dimen/layout_margin_32dp"
+        android:layout_marginTop="@dimen/layout_margin_32dp"
+        android:layout_marginEnd="@dimen/layout_margin_32dp"
+        android:layout_marginRight="@dimen/layout_margin_32dp"
+        android:text="@string/set_alarm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time_text" />
+
+    <Button
+        android:id="@+id/cancel_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_32dp"
+        android:layout_marginLeft="@dimen/layout_margin_32dp"
+        android:layout_marginTop="@dimen/layout_margin_32dp"
+        android:layout_marginEnd="@dimen/layout_margin_32dp"
+        android:layout_marginRight="@dimen/layout_margin_32dp"
+        android:text="@string/cancel_alarm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/set_alarm" />
+
+</android.support.constraint.ConstraintLayout>

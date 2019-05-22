@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ChatMessageView</string>
+    <string name="error">Error</string>
+    <string name="options">Options</string>
+    <string name="clear_messages">Clear Messages</string>
+    <string name="send_picture">Send Picture</string>
+    <string name="init_date">----/--/--</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="cancel_alarm">Cancel Alarm</string>
+    <string name="init_time">--:--</string>
+
+    <!-- Config String Resource -->
+    <string name="config_title">title</string>
+    <string name="config_details_hint">details..</string>
+
+    <!-- Edit String Resource -->
+    <string name="edit_title_hint">title..</string>
+    <string name="edit_details_hint">details..</string>
+    <string name="edit_time_title">Please select time.</string>
+    <string name="edit_incorrect_values">Time incorrect</string>
+    <string name="edit_cancel_alarm">cancel alarm</string>
+
+</resources>

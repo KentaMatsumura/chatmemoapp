@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConfigurationActivity">
+
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_32dp"
+        android:layout_marginLeft="@dimen/layout_margin_32dp"
+        android:layout_marginTop="@dimen/layout_margin_32dp"
+        android:layout_marginEnd="@dimen/layout_margin_32dp"
+        android:layout_marginRight="@dimen/layout_margin_32dp"
+        android:hint="@string/config_title"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/layout_text_32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/time_view_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_32dp"
+        android:layout_marginLeft="@dimen/layout_margin_32dp"
+        android:layout_marginTop="@dimen/layout_margin_32dp"
+        android:layout_marginEnd="@dimen/layout_margin_32dp"
+        android:layout_marginRight="@dimen/layout_margin_32dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:textColor="@android:color/black">
+
+
+        <TextView
+            android:id="@+id/date_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/layout_text_28sp" />
+
+        <TextView
+            android:id="@+id/time_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/layout_margin_32dp"
+            android:layout_marginLeft="@dimen/layout_margin_32dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/layout_text_28sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/content_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin_32dp"
+        android:layout_marginLeft="@dimen/layout_margin_32dp"
+        android:layout_marginTop="@dimen/layout_margin_32dp"
+        android:layout_marginEnd="@dimen/layout_margin_32dp"
+        android:layout_marginRight="@dimen/layout_margin_32dp"
+        android:hint="@string/config_details_hint"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/layout_text_32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/time_view_container" />
+</LinearLayout>
