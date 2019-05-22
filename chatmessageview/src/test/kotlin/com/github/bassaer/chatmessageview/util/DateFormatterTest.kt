@@ -5,10 +5,6 @@ import org.junit.Test
 
 import java.util.*
 
-/**
- * <p>DateFormatter test</p>
- * Created by nakayama on 2017/11/11.
- */
 internal class DateFormatterTest {
 
     @Test

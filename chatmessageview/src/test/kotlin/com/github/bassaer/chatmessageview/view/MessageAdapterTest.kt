@@ -17,10 +17,6 @@ import org.junit.runner.RunWith
 
 import org.robolectric.RobolectricTestRunner
 
-/**
- * MessageAdapter Unit Test
- * Created by nakayama on 2018/01/03.
- */
 @RunWith(RobolectricTestRunner::class)
 internal class MessageAdapterTest {
     private lateinit var messageAdapter: MessageAdapter

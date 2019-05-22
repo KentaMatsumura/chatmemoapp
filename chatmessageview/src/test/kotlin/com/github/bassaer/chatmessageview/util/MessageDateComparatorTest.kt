@@ -7,10 +7,6 @@ import org.junit.Test
 
 import java.util.*
 
-/**
- * <p>MessageDateComparator Test</p>
- * Created by nakayama on 2017/11/11.
- */
 internal class MessageDateComparatorTest {
     private val newMessage = Message()
     private val oldMessage = Message()

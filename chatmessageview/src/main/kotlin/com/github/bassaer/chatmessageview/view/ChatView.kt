@@ -23,10 +23,6 @@ import com.github.bassaer.chatmessageview.model.Message
 import kotlinx.android.synthetic.main.chat_view.view.*
 import kotlinx.android.synthetic.main.option_button.view.*
 
-/**
- * Chat view with edit view and send button
- * Created by nakayama on 2016/08/08.
- */
 class ChatView : LinearLayout {
     private lateinit var inputMethodManager: InputMethodManager
     private var sendIconId = R.drawable.ic_action_send

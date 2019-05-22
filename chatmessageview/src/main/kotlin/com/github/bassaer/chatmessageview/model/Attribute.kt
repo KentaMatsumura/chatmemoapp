@@ -5,10 +5,6 @@ import android.util.AttributeSet
 
 import com.github.bassaer.chatmessageview.R
 
-/**
- * View attribute
- * Created by nakayama on 2017/11/08.
- */
 class Attribute(context: Context, attrs: AttributeSet?) {
     var messageFontSize: Float
     var contentFontSize: Float

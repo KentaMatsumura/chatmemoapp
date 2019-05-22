@@ -2,10 +2,6 @@ package com.github.bassaer.example.util
 
 import androidx.test.espresso.IdlingResource
 
-/**
- * Implement to wait for a specific amount of time
- * Created by nakayama on 2017/08/01.
- */
 class ElapsedTimeIdlingResource(private val mWaitingTime: Long) : IdlingResource {
     private val mStartTime: Long = System.currentTimeMillis()
     private var mResourceCallback: IdlingResource.ResourceCallback? = null

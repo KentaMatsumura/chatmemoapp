@@ -6,9 +6,6 @@ import org.junit.Assert.assertEquals
 import org.junit.Assert.assertThat
 import org.junit.Test
 
-/**
- * Created by nakayama on 2017/11/11.
- */
 internal class ChatBotTest {
 
     private val username = "world"

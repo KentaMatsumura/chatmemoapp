@@ -11,10 +11,6 @@ import android.widget.ImageView
 
 import com.github.bassaer.chatmessageview.R
 
-/**
- * Round Image view for picture on message
- * Created by nakayama on 2017/03/08.
- */
 class RoundImageView : ImageView {
     private var mClipPath: Path? = null
 

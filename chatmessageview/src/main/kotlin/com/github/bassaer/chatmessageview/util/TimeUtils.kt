@@ -5,10 +5,6 @@ import android.annotation.SuppressLint
 import java.text.SimpleDateFormat
 import java.util.*
 
-/**
- * time utility class
- * Created by nakayama on 2016/12/02.
- */
 object TimeUtils {
 
     /***

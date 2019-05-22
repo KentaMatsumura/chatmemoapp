@@ -2,10 +2,6 @@ package com.github.bassaer.chatmessageview.util
 
 import java.util.*
 
-/**
- * Chat Bot for demo
- * Created by nakayama on 2016/12/03.
- */
 object ChatBot {
 
     fun talk(username: String?, message: String): String {

@@ -5,10 +5,6 @@ import org.junit.Test
 
 import java.util.*
 
-/**
- * <p>TimeUtil test</p>
- * Created by nakayama on 2017/11/11.
- */
 internal class TimeUtilsTest {
     @Test
     fun calendarToString() {

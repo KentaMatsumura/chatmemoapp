@@ -16,10 +16,6 @@ import java.util.*
 
 import kotlin.collections.ArrayList
 
-/**
- * Simple chat view
- * Created by nakayama on 2016/08/08.
- */
 class MessageView : ListView, View.OnFocusChangeListener {
 
     /**

@@ -31,10 +31,6 @@ import org.junit.runner.RunWith
 
 import java.util.*
 
-/**
- * MainActivity Test
- * Created by nakayama on 2017/07/29.
- */
 @RunWith(AndroidJUnit4::class)
 class MessengerActivityTest {
     private var mContext: Context? = null

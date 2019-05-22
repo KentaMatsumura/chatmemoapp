@@ -27,10 +27,6 @@ import kotlinx.android.synthetic.main.date_cell.view.*
 
 import java.util.*
 
-/**
- * Custom list adapter for the chat timeline
- * Created by nakayama on 2016/08/08.
- */
 class MessageAdapter(context: Context, resource: Int, private val objects: List<Any>, private var attribute: Attribute) : ArrayAdapter<Any>(context, resource, objects) {
 
     private val viewTypes = ArrayList<Any>()

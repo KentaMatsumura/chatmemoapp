@@ -6,10 +6,6 @@ import android.widget.TextView
 import org.hamcrest.Description
 import org.hamcrest.TypeSafeMatcher
 
-/**
- * Custom matcher to test TextView color
- * Created by nakayama on 2017/08/02.
- */
 
 class TextColorMatcher(color: Int) : TypeSafeMatcher<View>() {
     private var mExpectedColor = -1

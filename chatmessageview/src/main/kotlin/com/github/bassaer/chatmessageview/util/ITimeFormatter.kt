@@ -2,10 +2,6 @@ package com.github.bassaer.chatmessageview.util
 
 import java.util.*
 
-/**
- * Interface that allows custom formatting of time string
- * Created by nakayama on 2017/01/13.
- */
 interface ITimeFormatter {
 
     /**

@@ -9,10 +9,6 @@ import androidx.core.content.res.ResourcesCompat
 import org.hamcrest.Description
 import org.hamcrest.TypeSafeMatcher
 
-/**
- * Custom matcher to test drawable resource
- * Created by nakayama on 2017/07/29.
- */
 class DrawableMatcher(private val mExpectedId: Int) : TypeSafeMatcher<View>(View::class.java) {
     private var mResourceName: String? = null
 

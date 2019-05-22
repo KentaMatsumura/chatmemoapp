@@ -12,10 +12,6 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-/**
- * Wrapper class {@link ArrayList} for save data
- * Created by nakayama on 2017/01/13.
- */
 public class MessageList {
 
     private List<SaveMessage> mMessages;

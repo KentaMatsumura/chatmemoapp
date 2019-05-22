@@ -9,10 +9,6 @@ import com.github.bassaer.chatmessageview.util.*
 
 import java.util.*
 
-/**
- * Message object
- * Created by nakayama on 2016/08/08.
- */
 class Message {
 
     /**

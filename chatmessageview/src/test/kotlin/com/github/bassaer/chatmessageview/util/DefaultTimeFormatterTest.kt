@@ -5,9 +5,6 @@ import org.junit.Test
 
 import java.util.*
 
-/**
- * Created by nakayama on 2017/11/11.
- */
 internal class DefaultTimeFormatterTest {
     @Test
     fun getFormattedTimeText() {

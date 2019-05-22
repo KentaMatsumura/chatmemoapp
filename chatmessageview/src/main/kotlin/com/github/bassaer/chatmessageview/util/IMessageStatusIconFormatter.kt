@@ -2,10 +2,6 @@ package com.github.bassaer.chatmessageview.util
 
 import android.graphics.drawable.Drawable
 
-/**
- * Interface for status icon format
- * Created by nakayama on 2017/02/16.
- */
 interface IMessageStatusIconFormatter {
     /**
      * Return icon depend on message status and sender

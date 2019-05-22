@@ -10,10 +10,6 @@ import com.github.bassaer.chatmessageview.view.MessageView;
 
 import java.util.ArrayList;
 
-/**
- * Simple chat UI
- * Created by nakayama on 2016/12/03.
- */
 public class SimpleChatActivity extends Activity {
 
     @Override

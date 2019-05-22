@@ -4,10 +4,6 @@ import com.github.bassaer.chatmessageview.util.ITimeFormatter;
 
 import java.util.Calendar;
 
-/**
- * Custom time formatter
- * Created by nakayama on 2017/01/13.
- */
 public class MyTimeFormatter implements ITimeFormatter{
     @Override
     public String getFormattedTimeText(Calendar createdAt) {

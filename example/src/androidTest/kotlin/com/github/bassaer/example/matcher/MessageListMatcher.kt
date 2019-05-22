@@ -5,10 +5,6 @@ import android.widget.ListView
 import org.hamcrest.Description
 import org.hamcrest.TypeSafeMatcher
 
-/**
- * Matcher for checking Message List size
- * Created by nakayama on 2017/12/24.
- */
 object MessageListMatcher {
     @JvmStatic
     fun withListSize(size: Int): TypeSafeMatcher<View> {
