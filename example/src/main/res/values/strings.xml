@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">ChatMessageView</string>
+    <string name="app_name">ChatMemoApp</string>
     <string name="error">Error</string>
     <string name="options">Options</string>
-    <string name="clear_messages">Clear Messages</string>
+    <string name="clear_messages">Clear Memos</string>
     <string name="send_picture">Send Picture</string>
     <string name="init_date">----/--/--</string>
     <string name="set_alarm">Set Alarm</string>
